@@ -2,6 +2,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { searchPlugin } from '@vuepress/plugin-search'
 
 export default {
+    base: '/vueperssBlog/',
     lang: "zh-CN",
     title: "Z",
     description: "个人网站",
