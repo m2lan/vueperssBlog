@@ -12,13 +12,8 @@ export default {
 
         navbar: [
             {
-                text: '简介',
-                children: [
-                    {
-                        text: 'SubGroup',
-                        children: ['/group/sub/foo.md', '/group/sub/bar.md'],
-                    },
-                ],
+                text: '首页',
+                link: '/'
             },
             {
                 text: '分类',
