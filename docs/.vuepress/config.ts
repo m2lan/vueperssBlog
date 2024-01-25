@@ -19,6 +19,14 @@ export default {
                 link: '/yxb/admin-opt.md'
             },
             {
+                text: '物流追踪',
+                link: '/logistics/track'
+            },
+            {
+                text: '供应商产品库',
+                link: '/supplier/infomation'
+            },
+            {
                 text: '分类',
                 children: [
                     {

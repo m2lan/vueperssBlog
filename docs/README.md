@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /logo.png
-heroText: 网站操作手册
+heroText: 工具站
 actions:
   - text: 网站简介
     link: /algorithm
