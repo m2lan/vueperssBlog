@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-64552063","path":"/logistics/track.html","title":"物流追踪管理","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1706153248000,"contributors":[{"name":"York Zhu","email":"763960267@qq.com","commits":1}]},"filePathRelative":"logistics/track.md"}');export{t as data};

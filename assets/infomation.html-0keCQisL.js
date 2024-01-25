@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-878ea90e","path":"/supplier/infomation.html","title":"供应商资料库","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1706153248000,"contributors":[{"name":"York Zhu","email":"763960267@qq.com","commits":1}]},"filePathRelative":"supplier/infomation.md"}');export{t as data};

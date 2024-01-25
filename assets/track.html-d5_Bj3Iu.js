@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,b as e,d as r}from"./app-hvhM4Klf.js";const o={},s=e("h1",{id:"物流追踪管理",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#物流追踪管理","aria-hidden":"true"},"#"),r(" 物流追踪管理")],-1),n=[s];function _(d,i){return a(),c("div",null,n)}const l=t(o,[["render",_],["__file","track.html.vue"]]);export{l as default};
