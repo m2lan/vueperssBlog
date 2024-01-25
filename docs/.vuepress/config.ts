@@ -5,7 +5,7 @@ export default {
     base: '/vueperssBlog/',
     lang: "zh-CN",
     title: "Z",
-    description: "个人网站",
+    description: "操作手册",
     permalink: ":year/:month/:day/:title/",
     head: [["link", { rel: "icon", href: "/logo.png" }]],
     theme: defaultTheme({
@@ -15,39 +15,45 @@ export default {
                 link: '/'
             },
             {
+                text: '易销帮',
+                link: '/yxb/admin-opt.md'
+            },
+            {
                 text: '分类',
                 children: [
                     {
                         text: 'Centos7',
-                        children: [
-                            '/document/centos7/install-nodejs18.md'
-                        ]
+                        link: '/centos7/install-nodejs18'
                     },
                     {
                         text: 'Chrome',
-                        children: [
-                            '/document/chrome/default-unsecure-port.md'
-                        ]
+                        link: '/chrome/default-unsecure-port'
                     }
                 ],
             },
         ],
         sidebar: {
-            '/document/': [
+            '/centos7': [
                 {
                     text: 'Centos7',
                     collapsible: true,
                     children: [
-                        '/document/centos7/install-nodejs18.md'
-                    ],
-                },
+                        'install-nodejs18'
+                    ]
+                }
+            ],
+            '/chrome': [
                 {
                     text: 'Chrome',
                     collapsible: true,
                     children: [
-                        '/document/chrome/default-unsecure-port.md'
-                    ],
+                        'default-unsecure-port'
+                    ]
                 }
+            ],
+            '/yxb/': [
+                'admin-opt',
+                '360browser'
             ]
         }
     }),
